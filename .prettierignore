@@ -1,0 +1,10 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+dist/
+etc/
+temp/
+typings/
+coverage/
+.prettierignore

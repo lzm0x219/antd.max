@@ -1,0 +1,80 @@
+{
+  "name": "antd.max",
+  "version": "0.0.0-development",
+  "description": "A React business component library powered by ant-design.",
+  "keywords": [
+    "react"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "尾宿君",
+    "email": "lzm0x219@gmail.com"
+  },
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "typings"
+  ],
+  "scripts": {
+    "prebuild": "pnpm clean",
+    "build": "tsc --project ./tsconfig.build.json && pnpm api-extractor run --local --verbose",
+    "clean": "rimraf dist typings",
+    "coverage": "vitest run --coverage",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "preversion": "pnpm build",
+    "postversion": "git push --follow-tags"
+  },
+  "lint-staged": {
+    ".{ts,tsx,cjs}": [
+      "prettier --write",
+      "eslint"
+    ],
+    "*.{json,yml,md}": "prettier --write",
+    "package.json": "pnpm sort-package-json"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.18",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "eslint": "8.23.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-react": "7.31.7",
+    "eslint-plugin-react-hooks": "4.7.0-next-e61fd91f5-20220630",
+    "husky": "8.0.1",
+    "is-ci": "3.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "prettier-plugin-packagejson": "2.2.18",
+    "rimraf": "3.0.2",
+    "sort-package-json": "1.57.0",
+    "typescript": "4.7.4",
+    "vitest": "0.23.1"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "antd": ">=5.0.0-experimental.23",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=16.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
