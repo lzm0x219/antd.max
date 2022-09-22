@@ -45,7 +45,7 @@ Preset:
 - [ ] FormCheck.Segmented - 分段器
 - [ ] FormCheck.CheckBox - 复选框
 - [ ] FormCheck.Card - 卡片复选框
-- [ ] FormCheck.Tree - 卡片复选框
+- [ ] FormCheck.Tree - 树复选框
 
 #### Select
 
