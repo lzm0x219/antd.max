@@ -1,0 +1,281 @@
+// Hero
+.Hero {
+  margin-top: calc(var(--nav-height) * -1);
+  padding: calc(var(--nav-height) + 48px) 24px 48px;
+}
+
+@media (min-width: 640px) {
+  .Hero {
+    padding: calc(var(--nav-height) + 80px) 48px 64px;
+  }
+}
+
+@media (min-width: 960px) {
+  .Hero {
+    padding: calc(var(--nav-height) + 80px) 64px 64px;
+  }
+}
+
+// HeroContainer
+.HeroContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1152px;
+}
+
+.Hero.has-image {
+  .HeroContainer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 960px) {
+  .HeroContainer {
+    flex-direction: row;
+  }
+
+  .Hero.has-image {
+    .HeroContainer {
+      text-align: left;
+    }
+  }
+}
+
+// HeroContainerMain
+.HeroContainerMain {
+  position: relative;
+  z-index: 10;
+  order: 2;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+@media (min-width: 960px) {
+  .HeroContainerMain {
+    order: 1;
+    width: calc((100% / 3) * 2);
+  }
+
+  .Hero.has-image {
+    .HeroContainerMain {
+      max-width: 592px;
+    }
+  }
+}
+
+// HeroTitle, HeroText
+.HeroTitle,
+.HeroText {
+  max-width: 392px;
+  letter-spacing: -0.4px;
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+
+.Hero.has-image {
+  .HeroTitle,
+  .HeroText {
+    margin: 0 auto;
+  }
+}
+
+.HeroTitle {
+  color: var(--home-hero-name-color);
+  .HeroTitleName {
+    background: var(--home-hero-name-background);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: var(--home-hero-name-color);
+  }
+}
+
+@media (min-width: 640px) {
+  .HeroTitle,
+  .HeroText {
+    max-width: 576px;
+    line-height: 56px;
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 960px) {
+  .HeroTitle,
+  .HeroText {
+    line-height: 64px;
+    font-size: 56px;
+  }
+  .Hero.has-image .HeroTitle,
+  .Hero.has-image .HeroText {
+    margin: 0;
+  }
+}
+
+// HeroTagline
+.HeroTagline {
+  padding-top: 8px;
+  max-width: 392px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: pre-wrap;
+  color: var(--c-text-2);
+}
+
+.Hero.has-image {
+  .HeroTagline {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .HeroTagline {
+    padding-top: 12px;
+    max-width: 576px;
+    line-height: 32px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 960px) {
+  .HeroTagline {
+    line-height: 36px;
+    font-size: 24px;
+  }
+
+  .Hero.has-image {
+    .HeroTagline {
+      margin: 0;
+    }
+  }
+}
+
+// HeroActions
+.HeroActions {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -6px;
+  padding-top: 24px;
+}
+
+.Hero.has-image {
+  .HeroActions {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 640px) {
+  .HeroActions {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width: 960px) {
+  .Hero.has-image {
+    .HeroActions {
+      justify-content: flex-start;
+    }
+  }
+}
+
+.HeroActionsItem {
+  flex-shrink: 0;
+  padding: 6px;
+}
+
+// Image
+.HeroImage {
+  order: 1;
+  margin: -76px -24px -48px;
+}
+
+@media (min-width: 640px) {
+  .HeroImage {
+    margin: -108px -24px -48px;
+  }
+}
+
+@media (min-width: 960px) {
+  .HeroImage {
+    flex-grow: 1;
+    order: 2;
+    margin: 0;
+    min-height: 100%;
+  }
+}
+
+// HeroImageContainer
+.HeroImageContainer {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  height: 320px;
+}
+
+@media (min-width: 640px) {
+  .HeroImageContainer {
+    width: 392px;
+    height: 392px;
+  }
+}
+
+@media (min-width: 960px) {
+  .HeroImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transform: translate(-32px, -32px);
+  }
+}
+
+// HeroImageContainerBg
+.HeroImageContainerBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  width: 192px;
+  height: 192px;
+  background-image: var(--home-hero-image-background-image);
+  filter: var(--home-hero-image-filter);
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 640px) {
+  .HeroImageContainerBg {
+    width: 256px;
+    height: 256px;
+  }
+}
+
+@media (min-width: 960px) {
+  .HeroImageContainerBg {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+// HeroImageContainerSource
+.HeroImageContainerSource {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 192px;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 640px) {
+  .HeroImageContainerSource {
+    max-width: 256px;
+  }
+}
+
+@media (min-width: 960px) {
+  .HeroImageContainerSource {
+    max-width: 320px;
+  }
+}

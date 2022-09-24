@@ -1,0 +1,45 @@
+/**
+ * Colors Theme
+ * -------------------------------------------------------------------------- */
+:root {
+  --c-brand: var(--c-blue);
+  --c-brand-light: var(--c-blue-light);
+  --c-brand-lighter: var(--c-blue-lighter);
+  --c-brand-dark: var(--c-blue-dark);
+  --c-brand-darker: var(--c-blue-darker);
+  --c-brand-dimm-1: var(--c-blue-dimm-1);
+  --c-brand-dimm-2: var(--c-blue-dimm-2);
+  --c-brand-dimm-3: var(--c-blue-dimm-3);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --home-hero-name-color: transparent;
+  --home-hero-name-background: -webkit-linear-gradient(
+    180deg,
+    var(--c-red) 20%,
+    var(--c-brand-light)
+  );
+
+  --home-hero-image-background-image: linear-gradient(
+    -90deg,
+    var(--c-red) 10%,
+    var(--c-brand-light) 50%
+  );
+  --home-hero-image-filter: blur(40px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --home-hero-image-filter: blur(72px);
+  }
+}

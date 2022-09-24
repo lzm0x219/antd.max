@@ -1,0 +1,80 @@
+.NavBar {
+  position: relative;
+  border-bottom: 1px solid var(--color-divider);
+  padding: 0 8px 0 24px;
+  height: var(--nav-height);
+  transition: border-color 0.5s, background-color 0.5s;
+  pointer-events: none;
+
+  .NavBarContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: calc(var(--layout-max-width) - 64px);
+    pointer-events: none;
+
+    & /deep/ {
+      pointer-events: auto;
+    }
+
+    .NavBarContainerContent {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-grow: 1;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .NavBar {
+    padding: 0 32px;
+  }
+}
+
+@media (min-width: 960px) {
+  .NavBar {
+    height: var(--nav-height-desktop);
+    border-bottom: 0;
+
+    &.has-sidebar {
+      .NavBarContainerContent {
+        margin-right: -32px;
+        padding-right: 32px;
+        -webkit-backdrop-filter: saturate(50%) blur(8px);
+        backdrop-filter: saturate(50%) blur(8px);
+        background: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+
+  [data-prefers-color="dark"] {
+    .NavBar {
+      &.has-sidebar {
+        .NavBarContainerContent {
+          background: rgba(36, 36, 36, 0.95);
+        }
+      }
+    }
+  }
+
+  @supports not (backdrop-filter: saturate(50%) blur(8px)) {
+    .NavBar {
+      &.has-sidebar {
+        .NavBarContainerContent {
+          background: rgba(255, 255, 255, 0.95);
+        }
+      }
+    }
+
+    [data-prefers-color="dark"] {
+      .NavBar {
+        &.has-sidebar {
+          .NavBarContainerContent {
+            background: rgba(36, 36, 36, 0.95);
+          }
+        }
+      }
+    }
+  }
+}

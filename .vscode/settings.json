@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["packagejson", "postversion"]
+  "cSpell.words": ["dimm", "navs", "packagejson", "postversion"],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
