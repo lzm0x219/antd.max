@@ -58,7 +58,7 @@
     "@umijs/plugin-esbuild": "1.4.1",
     "@umijs/types": "3.5.34",
     "dumi": "1.1.47",
-    "eslint": "8.23.1",
+    "eslint": "8.24.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.31.8",
