@@ -1,4 +1,5 @@
 import { defineConfig, type IConfig } from "dumi";
+import { resolve } from "node:path";
 
 const config: IConfig = {
   title: "Antd.Max",
@@ -23,10 +24,15 @@ const config: IConfig = {
       },
     ],
   },
+  alias: {
+    "@theme": resolve(__dirname, ".dumi/theme"),
+  },
   webpack5: {},
   fastRefresh: {},
   workerLoader: {},
-  dynamicImport: {},
+  dynamicImport: {
+    loading: "@theme/components/PageLoading",
+  },
   esbuild: {},
   nodeModulesTransform: {
     type: "none",
