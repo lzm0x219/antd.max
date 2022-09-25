@@ -6,23 +6,30 @@
   transition: border-color 0.5s, background-color 0.5s;
   pointer-events: none;
 
-  .NavBarContainer {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: calc(var(--layout-max-width) - 64px);
-    pointer-events: none;
+  .NavBarMenu + .NavBarTranslations::before,
+  .NavBarMenu + .NavBarAppearance::before,
+  .NavBarMenu + .NavBarSocialLinks::before,
+  .NavBarTranslations + .NavBarAppearance::before,
+  .NavBarAppearance + .NavBarSocialLinks::before {
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 1px;
+    height: 24px;
+    background-color: var(--c-divider-light);
+    content: "";
+  }
 
-    & /deep/ {
-      pointer-events: auto;
-    }
+  .NavBarMenu + .NavBarAppearance::before,
+  .NavBarTranslations + .NavBarAppearance::before {
+    margin-right: 16px;
+  }
 
-    .NavBarContainerContent {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      flex-grow: 1;
-    }
+  .NavBarAppearance + .NavBarSocialLinks::before {
+    margin-left: 16px;
+  }
+
+  .NavBarSocialLinks {
+    margin-right: -8px;
   }
 }
 
@@ -76,5 +83,24 @@
         }
       }
     }
+  }
+}
+
+.NavBarContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: calc(var(--layout-max-width) - 64px);
+  pointer-events: none;
+
+  & /deep/ {
+    pointer-events: auto;
+  }
+
+  .NavBarContainerContent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
   }
 }

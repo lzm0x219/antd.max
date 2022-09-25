@@ -39,6 +39,9 @@ const config: IConfig = {
   },
   exportStatic: {},
   themeConfig: {
+    socialLinks: [
+      { icon: "github", link: "https://github.com/lzm0x219/antd.max" },
+    ],
     footer: {
       message: "Open-source MIT Licensed",
       copyright: "Copyright © 2021-present Powered by 尾宿君",
