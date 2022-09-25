@@ -22,7 +22,7 @@ export default function Layout({ children, location }: LayoutProps) {
   }
 
   return (
-    <Box as="main" className="AntdMaxLayout">
+    <Box as="main" className="dumi-theme-vitepress-layout">
       <Nav />
       <Content>{children}</Content>
       <Footer />
