@@ -16,6 +16,14 @@
     }
   }
 
+  [data-prefers-color="dark"] {
+    .Nav {
+      &.no-sidebar {
+        background: rgba(36, 36, 36, 0.95);
+      }
+    }
+  }
+
   @supports not (backdrop-filter: saturate(50%) blur(8px)) {
     .Nav {
       &.no-sidebar {
