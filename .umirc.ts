@@ -31,7 +31,7 @@ const config: IConfig = {
   fastRefresh: {},
   workerLoader: {},
   dynamicImport: {
-    loading: "@theme/components/PageLoading",
+    // loading: "@theme/components/PageLoading",
   },
   esbuild: {},
   nodeModulesTransform: {
@@ -46,6 +46,7 @@ const config: IConfig = {
       message: "Open-source MIT Licensed",
       copyright: "Copyright © 2021-present Powered by 尾宿君",
     },
+    algolia: {},
   },
 };
 

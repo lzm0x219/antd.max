@@ -1,4 +1,12 @@
 {
-  "cSpell.words": ["dimm", "navs", "packagejson", "postversion", "vitepress"],
+  "cSpell.words": [
+    "dimm",
+    "docsearch",
+    "navs",
+    "packagejson",
+    "postversion",
+    "searchbox",
+    "vitepress"
+  ],
   "typescript.tsdk": "node_modules/typescript/lib"
 }
