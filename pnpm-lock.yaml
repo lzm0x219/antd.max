@@ -8,7 +8,7 @@ specifiers:
   '@umijs/plugin-esbuild': 1.4.1
   '@umijs/types': 3.5.34
   antd: 5.0.0-experimental.27
-  dumi: 1.1.47
+  dumi: 1.1.48
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-jsx-a11y: 6.6.1
@@ -39,7 +39,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.38.1_ypn2ylkkyfa5i233caldtndbqa
   '@umijs/plugin-esbuild': 1.4.1
   '@umijs/types': 3.5.34_biqbaboplfbrettd7655fr4n2y
-  dumi: 1.1.47_yalvw3r2waubxycyb7k7qsruca
+  dumi: 1.1.48_yalvw3r2waubxycyb7k7qsruca
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0_eslint@8.24.0
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.24.0
@@ -1000,8 +1000,8 @@ packages:
       - react-dom
     dev: true
 
-  /@umijs/preset-dumi/1.1.47_ejqbvmro4azuo45zwfj6yngg6i:
-    resolution: {integrity: sha512-yv3dzeMSCc5CjmRe8nkVtodNYcJefyRev3T+hhjx74hPtwxNOVlx7PsDov66xdnw9uWUNbfBL7c5g3xT1sCWJQ==}
+  /@umijs/preset-dumi/1.1.48_ejqbvmro4azuo45zwfj6yngg6i:
+    resolution: {integrity: sha512-FZokLi0qUBM7J+WNxfeb9/Hv5kMzwUexPveAUMyeIp+bqeN+kHWHZRrChQITqC0xBXSegqTTOeRH8+7qsUqKDA==}
     peerDependencies:
       umi: ^3.0.0
     peerDependenciesMeta:
@@ -1023,8 +1023,8 @@ packages:
       codesandbox: 2.2.3
       copy-text-to-clipboard: 2.2.0
       deepmerge: 4.2.2
-      dumi-assets-types: 1.0.0
-      dumi-theme-default: 1.1.23_fxpjzghtawalkovlqjmm2jjqea
+      dumi-assets-types: 1.0.1
+      dumi-theme-default: 1.1.24_cd6uoz24gmvk364ak7f74brzna
       enhanced-resolve: 4.5.0
       github-slugger: 1.4.0
       hast-util-has-property: 1.0.4
@@ -2619,12 +2619,12 @@ packages:
       is-obj: 1.0.1
     dev: true
 
-  /dumi-assets-types/1.0.0:
-    resolution: {integrity: sha512-7nhSeWM15vybbUAMPLZsdls2jKoHB2UU4P1RM6kLPucuS8eC/HSmufquFqTTYtX4oIDLHGtil/dVtMreNGwhdA==}
+  /dumi-assets-types/1.0.1:
+    resolution: {integrity: sha512-A+fJp7L+Q6nU5S2KgbdnyfRoCkAZy+UFudQ45QPM7W+3LIe8o+Tt0cURIQMnLZMBjoKbItB5IDi+IM39FwFZvQ==}
     dev: true
 
-  /dumi-theme-default/1.1.23_fxpjzghtawalkovlqjmm2jjqea:
-    resolution: {integrity: sha512-XtxS0f9c0YToL2QBYjXtrvoZ9nmlWzA0zgLra7Joh8KNiK2c4UqYTh91dAThp0AbnFuG2eOxR7w/PxA8OyK4og==}
+  /dumi-theme-default/1.1.24_cd6uoz24gmvk364ak7f74brzna:
+    resolution: {integrity: sha512-/fS7gBJejom1Zy1GZkrqG/dLEsCK6J/S/ctCPEawDC3KkZE0sJh+dqsMuhHt8ts7ZhaGhDpJNPXSMghfN/qrzw==}
     peerDependencies:
       '@umijs/preset-dumi': 1.x
       react: '*'
@@ -2632,7 +2632,7 @@ packages:
       '@umijs/preset-dumi':
         optional: true
     dependencies:
-      '@umijs/preset-dumi': 1.1.47_ejqbvmro4azuo45zwfj6yngg6i
+      '@umijs/preset-dumi': 1.1.48_ejqbvmro4azuo45zwfj6yngg6i
       lodash.throttle: 4.1.1
       prism-react-renderer: 1.3.5_react@18.2.0
       prismjs: 1.29.0
@@ -2645,11 +2645,11 @@ packages:
       - react-dom
     dev: true
 
-  /dumi/1.1.47_yalvw3r2waubxycyb7k7qsruca:
-    resolution: {integrity: sha512-K3eix0oxnAVQwoZlNUShg2/lZxRU515U3QoOJBdPQfiOPbPv1+/N/p17PHz1L/MBaFReb7UrhUalyb6jPd36og==}
+  /dumi/1.1.48_yalvw3r2waubxycyb7k7qsruca:
+    resolution: {integrity: sha512-vswVvRcMI5o6BlUzTT4zcOa3gBs9Zwels5jG6bTvac8ubshGlIa7/ubzxNkAbbyAGN9AJ/XzzlwA/2HzXhNINA==}
     hasBin: true
     dependencies:
-      '@umijs/preset-dumi': 1.1.47_ejqbvmro4azuo45zwfj6yngg6i
+      '@umijs/preset-dumi': 1.1.48_ejqbvmro4azuo45zwfj6yngg6i
       umi: 3.5.34
     transitivePeerDependencies:
       - bufferutil
