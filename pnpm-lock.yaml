@@ -5,7 +5,7 @@ specifiers:
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.38.1
   '@typescript-eslint/parser': 5.38.1
-  '@umijs/plugin-esbuild': 1.4.1
+  '@umijs/plugin-esbuild': 1.4.2
   '@umijs/types': 3.5.34
   antd: 5.0.0-experimental.27
   dumi: 1.1.47
@@ -37,7 +37,7 @@ devDependencies:
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.38.1_c7qepppml3d4ahu5cnfwqe6ltq
   '@typescript-eslint/parser': 5.38.1_ypn2ylkkyfa5i233caldtndbqa
-  '@umijs/plugin-esbuild': 1.4.1
+  '@umijs/plugin-esbuild': 1.4.2
   '@umijs/types': 3.5.34_biqbaboplfbrettd7655fr4n2y
   dumi: 1.1.47_yalvw3r2waubxycyb7k7qsruca
   eslint: 8.24.0
@@ -951,8 +951,8 @@ packages:
       umi: 3.5.34
     dev: true
 
-  /@umijs/plugin-esbuild/1.4.1:
-    resolution: {integrity: sha512-3B5vhffgbtB/D/Xv2JQ4WRvDo3wvhr9YD90XrRbO17bgl50yj6CVVU6ulM2kCRtn4d7qcM+aMSGz220AwnfCOQ==}
+  /@umijs/plugin-esbuild/1.4.2:
+    resolution: {integrity: sha512-K/0nZ1wNFg11xF3zx5E8jQQkY4d6SDNNhB16Ngp77i5ZUexWyfiRC+StN0KpYOAIorajNTMxHRnthRFV3dZbPA==}
     peerDependencies:
       umi: 3.x
     peerDependenciesMeta:
