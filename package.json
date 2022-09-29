@@ -46,7 +46,7 @@
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
-    "antd": "5.0.0-experimental.27",
+    "antd": "5.0.0-alpha.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
