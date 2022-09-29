@@ -55,7 +55,7 @@
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.38.1",
     "@typescript-eslint/parser": "5.38.1",
-    "@umijs/plugin-esbuild": "1.4.1",
+    "@umijs/plugin-esbuild": "1.4.2",
     "@umijs/types": "3.5.34",
     "dumi": "1.1.48",
     "eslint": "8.24.0",
