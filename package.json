@@ -51,6 +51,7 @@
     "@formily/react": "2.2.6",
     "antd": "5.0.0-alpha.0",
     "dayjs": "1.11.5",
+    "rc-basic": "1.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "18.2.0"
@@ -86,6 +87,7 @@
     "@types/react-dom": "18.x",
     "antd": "5.x",
     "dayjs": "1.x",
+    "rc-basic": "1.x",
     "react": "18.x",
     "react-dom": "18.x",
     "react-is": "18.x"
@@ -98,6 +100,12 @@
       "optional": true
     },
     "@types/react-dom": {
+      "optional": true
+    },
+    "dayjs": {
+      "optional": true
+    },
+    "rc-basic": {
       "optional": true
     }
   },

@@ -22,6 +22,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.3.0
+  rc-basic: 1.0.0
   react: 18.2.0
   react-dom: 18.2.0
   react-is: 18.2.0
@@ -37,6 +38,7 @@ dependencies:
   '@formily/react': 2.2.6_34zn46vchx4zwynjs5ph7vopou
   antd: 5.0.0-alpha.0_biqbaboplfbrettd7655fr4n2y
   dayjs: 1.11.5
+  rc-basic: 1.0.0_5uumaiclxbdbzaqafclbf6maf4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
@@ -6630,6 +6632,29 @@ packages:
       react-dom: 18.2.0_react@18.2.0
       resize-observer-polyfill: 1.5.1
 
+  /rc-basic/1.0.0_5uumaiclxbdbzaqafclbf6maf4:
+    resolution: {integrity: sha512-/AqrrrNOGc9SZsAU4k+Bp0ZbcMXT57Nj15B3yBI48VqMM8GUHR3Jt+SObQIPAU5Z/Lvb76Z/bEcirusIReCwfw==}
+    requiresBuild: true
+    peerDependencies:
+      '@types/react': 18.x
+      '@types/react-dom': 18.x
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+      react-polymorphic-types:
+        optional: true
+    dependencies:
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-polymorphic-types: 2.0.0_@types+react@18.0.21
+    dev: false
+
   /rc-cascader/3.7.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-SFtGpwmYN7RaWEAGTS4Rkc62ZV/qmQGg/tajr/7mfIkleuu8ro9Hlk6J+aA0x1YS4zlaZBtTcSaXM01QMiEV/A==}
     peerDependencies:
@@ -7205,6 +7230,14 @@ packages:
 
   /react-is/18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+    dev: false
+
+  /react-polymorphic-types/2.0.0_@types+react@18.0.21:
+    resolution: {integrity: sha512-Xfz5qfEzLAvB2ijL9hZfHRa9bsQG6te262KHjnbezZ2XyubnSDzh3TV6OgvBsQsz7FCRHjbDbqA5UTkNEziTlw==}
+    peerDependencies:
+      '@types/react': '>=16.8.6'
+    dependencies:
+      '@types/react': 18.0.21
     dev: false
 
   /react-refresh/0.10.0:
