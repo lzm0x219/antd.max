@@ -46,9 +46,12 @@
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
+    "@formily/core": "2.2.6",
+    "@formily/react": "2.2.6",
     "antd": "5.0.0-alpha.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-is": "18.2.0"
   },
   "devDependencies": {
     "@types/react": "18.0.21",
@@ -74,11 +77,14 @@
     "vitest": "0.23.4"
   },
   "peerDependencies": {
+    "@formily/core": "2.x",
+    "@formily/react": "2.x",
     "@types/react": "18.x",
     "@types/react-dom": "18.x",
     "antd": "5.x",
     "react": "18.x",
-    "react-dom": "18.x"
+    "react-dom": "18.x",
+    "react-is": "18.x"
   },
   "peerDependenciesMeta": {
     "@types/react": {
