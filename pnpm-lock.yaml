@@ -8,7 +8,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.38.1
   '@typescript-eslint/parser': 5.38.1
   '@umijs/plugin-esbuild': 1.4.2
-  antd: 5.0.0-alpha.0
+  antd: 5.0.0-experimental.30
   dayjs: 1.11.5
   dumi: 1.1.48
   eslint: 8.24.0
@@ -33,7 +33,7 @@ specifiers:
 dependencies:
   '@formily/core': 2.2.6
   '@formily/react': 2.2.6_34zn46vchx4zwynjs5ph7vopou
-  antd: 5.0.0-alpha.0_biqbaboplfbrettd7655fr4n2y
+  antd: 5.0.0-experimental.30_biqbaboplfbrettd7655fr4n2y
   dayjs: 1.11.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1530,8 +1530,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /antd/5.0.0-alpha.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-Z+x79PRoZVQdVK0FGvmUmN7oxBU2qRaraWLhxuqj6t365LArtY173g/bnzsC2aDXokhldkSbPpV2W8thYxU7kw==}
+  /antd/5.0.0-experimental.30_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-0PuI04lnhG3LZB5sp8Oi+y4Kta25RYh5qZZRs08+n13Pyuy92KfHf7Y9T4ZjRiA94Rv4s9Pub0EvhJzrnOHwGg==}
     peerDependencies:
       react: '*'
       react-dom: '*'
