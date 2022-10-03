@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/cssinjs': 0.0.0-alpha.54
   '@formily/core': 2.2.6
   '@formily/react': 2.2.6
   '@types/react': 18.0.21
@@ -31,6 +32,7 @@ specifiers:
   vitest: 0.23.4
 
 dependencies:
+  '@ant-design/cssinjs': 0.0.0-alpha.54_biqbaboplfbrettd7655fr4n2y
   '@formily/core': 2.2.6
   '@formily/react': 2.2.6_34zn46vchx4zwynjs5ph7vopou
   antd: 5.0.0-alpha.0_biqbaboplfbrettd7655fr4n2y
