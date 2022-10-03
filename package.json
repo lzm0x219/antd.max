@@ -80,7 +80,7 @@
     "vitest": "0.23.4"
   },
   "peerDependencies": {
-    "@ant-design/cssinjs": "^0.0.0",
+    "@ant-design/cssinjs": "*",
     "@formily/core": "2.x",
     "@formily/react": "2.x",
     "@types/react": "18.x",
