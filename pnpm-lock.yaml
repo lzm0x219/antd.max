@@ -6,14 +6,13 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.38.1
   '@typescript-eslint/parser': 5.38.1
   '@umijs/plugin-esbuild': 1.4.2
-  '@umijs/types': 3.5.34
   antd: 5.0.0-alpha.0
   dumi: 1.1.48
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-jsx-a11y: 6.6.1
   eslint-plugin-react: 7.31.8
-  eslint-plugin-react-hooks: 4.7.0-next-e61fd91f5-20220630
+  eslint-plugin-react-hooks: 4.6.0
   husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 13.0.3
@@ -38,13 +37,12 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.38.1_c7qepppml3d4ahu5cnfwqe6ltq
   '@typescript-eslint/parser': 5.38.1_ypn2ylkkyfa5i233caldtndbqa
   '@umijs/plugin-esbuild': 1.4.2
-  '@umijs/types': 3.5.34_biqbaboplfbrettd7655fr4n2y
   dumi: 1.1.48_yalvw3r2waubxycyb7k7qsruca
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0_eslint@8.24.0
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.24.0
   eslint-plugin-react: 7.31.8_eslint@8.24.0
-  eslint-plugin-react-hooks: 4.7.0-next-e61fd91f5-20220630_eslint@8.24.0
+  eslint-plugin-react-hooks: 4.6.0_eslint@8.24.0
   husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 13.0.3
@@ -3155,8 +3153,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-react-hooks/4.7.0-next-e61fd91f5-20220630_eslint@8.24.0:
-    resolution: {integrity: sha512-pfbCI0d7Od+oLtvuLxxyZCiCDR/MVo2D7dZ5pk/QzZfTxjXznbfFvU70jVAgQztF6vIZRK0bucYvNeb5pwu79Q==}
+  /eslint-plugin-react-hooks/4.6.0_eslint@8.24.0:
+    resolution: {integrity: sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
