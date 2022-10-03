@@ -9,6 +9,7 @@ specifiers:
   '@typescript-eslint/parser': 5.38.1
   '@umijs/plugin-esbuild': 1.4.2
   antd: 5.0.0-alpha.0
+  dayjs: 1.11.5
   dumi: 1.1.48
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0
@@ -33,6 +34,7 @@ dependencies:
   '@formily/core': 2.2.6
   '@formily/react': 2.2.6_34zn46vchx4zwynjs5ph7vopou
   antd: 5.0.0-alpha.0_biqbaboplfbrettd7655fr4n2y
+  dayjs: 1.11.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
