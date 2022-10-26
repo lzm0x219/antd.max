@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ant-design/cssinjs': 0.0.0-alpha.54
-  '@types/react': 18.0.22
+  '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   '@typescript-eslint/eslint-plugin': 5.41.0
   '@typescript-eslint/parser': 5.41.0
@@ -33,12 +33,12 @@ dependencies:
   '@ant-design/cssinjs': 0.0.0-alpha.54_biqbaboplfbrettd7655fr4n2y
   antd: 5.0.0-alpha.0_biqbaboplfbrettd7655fr4n2y
   dayjs: 1.11.6
-  rc-basic: 1.0.2_pfva2yqwphl3e2f6qzlabaeuhu
+  rc-basic: 1.0.2_6v6cuqnzjlfigkhgmcz4pxhsva
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@types/react': 18.0.22
+  '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   '@typescript-eslint/eslint-plugin': 5.41.0_huremdigmcnkianavgfk3x6iou
   '@typescript-eslint/parser': 5.41.0_wyqvi574yv7oiwfeinomdzmc3m
@@ -613,13 +613,13 @@ packages:
   /@types/react-dom/18.0.7:
     resolution: {integrity: sha512-HaXc+BbqAZE1RdsK3tC8SbkFy6UL2xF76lT9rQs5JkPrJg3rWA3Ou/Lhw3YJQzEDkBpmJ79nBsfnd05WrBd2QQ==}
     dependencies:
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
 
   /@types/react-router-config/5.0.2:
     resolution: {integrity: sha512-WOSetDV3YPxbkVJAdv/bqExJjmcdCi/vpCJh3NfQOy1X15vHMSiMioXIcGekXDJJYhqGUMDo9e337mh508foAA==}
     dependencies:
       '@types/history': 5.0.0
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
       '@types/react-router': 5.1.19
     dev: true
 
@@ -627,7 +627,7 @@ packages:
     resolution: {integrity: sha512-db1mx37a1EJDf1XeX8jJN7R3PZABmJQXR8r28yUjVMFSjkmnQo6X6pOEEmNl+Tp2gYQOGPdYbFIipBtdElZ3Yg==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
       '@types/react-router': 5.1.19
     dev: true
 
@@ -635,7 +635,7 @@ packages:
     resolution: {integrity: sha512-D5mHD6TbdV/DNHYsnwBTv+y73ei+mMjrkGrla86HthE4/PVvL1J94Bu3qABU+COXzpL23T1EZapVVpwHuBXiUg==}
     dependencies:
       '@types/history': 5.0.0
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
       '@types/react-router': 5.1.12
     dev: true
 
@@ -643,14 +643,14 @@ packages:
     resolution: {integrity: sha512-0bhXQwHYfMeJlCh7mGhc0VJTRm0Gk+Z8T00aiP4702mDUuLs9SMhnd2DitpjWFjdOecx2UXtICK14H9iMnziGA==}
     dependencies:
       '@types/history': 5.0.0
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
     dev: true
 
   /@types/react-router/5.1.19:
     resolution: {integrity: sha512-Fv/5kb2STAEMT3wHzdKQK2z8xKq38EDIGVrutYLmQVVLe+4orDFquU52hQrULnEHinMKv9FSA6lf9+uNT1ITtA==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
     dev: true
 
   /@types/react/16.14.32:
@@ -661,8 +661,8 @@ packages:
       csstype: 3.1.1
     dev: true
 
-  /@types/react/18.0.22:
-    resolution: {integrity: sha512-4yWc5PyCkZN8ke8K9rQHkTXxHIWHxLzzW6RI1kXVoepkD3vULpKzC2sDtAMKn78h92BRYuzf+7b/ms7ajE6hFw==}
+  /@types/react/18.0.23:
+    resolution: {integrity: sha512-R1wTULtCiJkudAN2DJGoYYySbGtOdzZyUWAACYinKdiQC8auxso4kLDUhQ7AJ2kh3F6A6z4v69U6tNY39hihVQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -6517,7 +6517,7 @@ packages:
       react-dom: 18.2.0_react@18.2.0
       resize-observer-polyfill: 1.5.1
 
-  /rc-basic/1.0.2_pfva2yqwphl3e2f6qzlabaeuhu:
+  /rc-basic/1.0.2_6v6cuqnzjlfigkhgmcz4pxhsva:
     resolution: {integrity: sha512-0ZYWIT1/xInHSzEazlhM713VRFxRmnRzBNQ6XsBDWJ+IbWVBCncUwNcT9pO+U2q6UNxjHcaeXN3ghwKxdNSwIw==}
     requiresBuild: true
     peerDependencies:
@@ -6533,11 +6533,11 @@ packages:
       react-polymorphic-types:
         optional: true
     dependencies:
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
       '@types/react-dom': 18.0.7
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-polymorphic-types: 2.0.0_@types+react@18.0.22
+      react-polymorphic-types: 2.0.0_@types+react@18.0.23
     dev: false
 
   /rc-cascader/3.7.0_biqbaboplfbrettd7655fr4n2y:
@@ -7113,12 +7113,12 @@ packages:
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-polymorphic-types/2.0.0_@types+react@18.0.22:
+  /react-polymorphic-types/2.0.0_@types+react@18.0.23:
     resolution: {integrity: sha512-Xfz5qfEzLAvB2ijL9hZfHRa9bsQG6te262KHjnbezZ2XyubnSDzh3TV6OgvBsQsz7FCRHjbDbqA5UTkNEziTlw==}
     peerDependencies:
       '@types/react': '>=16.8.6'
     dependencies:
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
     dev: false
 
   /react-refresh/0.10.0:
