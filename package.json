@@ -56,8 +56,8 @@
   "devDependencies": {
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",
-    "@typescript-eslint/eslint-plugin": "5.41.0",
-    "@typescript-eslint/parser": "5.41.0",
+    "@typescript-eslint/eslint-plugin": "5.42.0",
+    "@typescript-eslint/parser": "5.42.0",
     "@umijs/plugin-esbuild": "1.4.2",
     "dumi": "1.1.49",
     "eslint": "8.26.0",
