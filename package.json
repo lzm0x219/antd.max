@@ -60,7 +60,7 @@
     "@typescript-eslint/parser": "5.42.0",
     "@umijs/plugin-esbuild": "1.4.2",
     "dumi": "1.1.49",
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.31.10",
