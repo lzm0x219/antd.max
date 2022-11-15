@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@ant-design/cssinjs': 0.0.0-alpha.60
   '@types/react': 18.0.25
-  '@types/react-dom': 18.0.8
+  '@types/react-dom': 18.0.9
   '@typescript-eslint/eslint-plugin': 5.42.1
   '@typescript-eslint/parser': 5.42.1
   '@umijs/plugin-esbuild': 1.4.2
@@ -33,13 +33,13 @@ dependencies:
   '@ant-design/cssinjs': 0.0.0-alpha.60_biqbaboplfbrettd7655fr4n2y
   antd: 5.0.0-alpha.0_biqbaboplfbrettd7655fr4n2y
   dayjs: 1.11.6
-  rc-basic: 1.0.2_gqczyrwmhlwpr6z64d3xh3wv54
+  rc-basic: 1.0.2_cn3ejhfta5lq2dae4xucvtkwvu
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
   '@types/react': 18.0.25
-  '@types/react-dom': 18.0.8
+  '@types/react-dom': 18.0.9
   '@typescript-eslint/eslint-plugin': 5.42.1_2udltptbznfmezdozpdoa2aemq
   '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
   '@umijs/plugin-esbuild': 1.4.2
@@ -610,8 +610,8 @@ packages:
       '@types/react': 16.14.32
     dev: true
 
-  /@types/react-dom/18.0.8:
-    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
+  /@types/react-dom/18.0.9:
+    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
     dependencies:
       '@types/react': 18.0.25
 
@@ -6523,7 +6523,7 @@ packages:
       react-dom: 18.2.0_react@18.2.0
       resize-observer-polyfill: 1.5.1
 
-  /rc-basic/1.0.2_gqczyrwmhlwpr6z64d3xh3wv54:
+  /rc-basic/1.0.2_cn3ejhfta5lq2dae4xucvtkwvu:
     resolution: {integrity: sha512-0ZYWIT1/xInHSzEazlhM713VRFxRmnRzBNQ6XsBDWJ+IbWVBCncUwNcT9pO+U2q6UNxjHcaeXN3ghwKxdNSwIw==}
     requiresBuild: true
     peerDependencies:
@@ -6540,7 +6540,7 @@ packages:
         optional: true
     dependencies:
       '@types/react': 18.0.25
-      '@types/react-dom': 18.0.8
+      '@types/react-dom': 18.0.9
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-polymorphic-types: 2.0.0_@types+react@18.0.25
