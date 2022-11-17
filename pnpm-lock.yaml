@@ -7,7 +7,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.43.0
   '@typescript-eslint/parser': 5.43.0
   '@umijs/plugin-esbuild': 1.4.2
-  antd: 5.0.0-rc.0
+  antd: 5.0.0-rc.1
   dayjs: 1.11.6
   dumi: 1.1.49
   eslint: 8.27.0
@@ -31,7 +31,7 @@ specifiers:
 
 dependencies:
   '@ant-design/cssinjs': 0.0.0-alpha.60_biqbaboplfbrettd7655fr4n2y
-  antd: 5.0.0-rc.0_biqbaboplfbrettd7655fr4n2y
+  antd: 5.0.0-rc.1_biqbaboplfbrettd7655fr4n2y
   dayjs: 1.11.6
   rc-basic: 1.0.2_cn3ejhfta5lq2dae4xucvtkwvu
   react: 18.2.0
@@ -1450,8 +1450,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /antd/5.0.0-rc.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-YMyrGqTG3AHciI5INmf4K5uRWpNAQSy/B572tI6lCEOlbqHUVUmKjqcLAPZw+BJX+8z8wi7Zf3iriBZdpYUYsw==}
+  /antd/5.0.0-rc.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-ca8wSnmgtNNStqOhdzxBXKW+LmX7AkhaDOvFukQ8RZWyZRuLhG0oOSlLsLfotX0qMqwLCzO/8nqChSdYzW2sOw==}
     peerDependencies:
       react: '*'
       react-dom: '*'
