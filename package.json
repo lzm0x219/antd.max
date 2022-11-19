@@ -46,7 +46,7 @@
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
-    "@ant-design/cssinjs": "0.0.0-alpha.60",
+    "@ant-design/cssinjs": "1.0.0",
     "antd": "5.0.0-rc.2",
     "dayjs": "1.11.6",
     "rc-basic": "1.0.2",
