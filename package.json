@@ -38,40 +38,31 @@
     "postversion": "git push --follow-tags"
   },
   "lint-staged": {
-    ".{ts,tsx,cjs}": [
-      "prettier --write",
-      "eslint"
+    "*.{ts,tsx,js,cjs}": [
+      "rome format --write",
+      "rome check"
     ],
-    "*.{json,yml,md}": "prettier --write",
+    "*.{md,html,css,json,yml}": "prettier --write",
+    "!(*pnpm-lock).yaml": "prettier --write",
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
     "@ant-design/cssinjs": "1.0.0",
     "antd": "5.0.0",
     "dayjs": "1.11.6",
-    "rc-basic": "1.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
-    "@typescript-eslint/eslint-plugin": "5.43.0",
-    "@typescript-eslint/parser": "5.43.0",
-    "@umijs/plugin-esbuild": "1.4.2",
-    "dumi": "1.1.49",
-    "eslint": "8.27.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-jsx-a11y": "6.6.1",
-    "eslint-plugin-react": "7.31.10",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "dumi": "2.0.2",
     "husky": "8.0.2",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "prettier-plugin-packagejson": "2.3.0",
     "rimraf": "3.0.2",
-    "serve": "14.1.1",
     "sort-package-json": "2.1.0",
     "typescript": "4.9.3",
     "vitest": "0.25.2"
@@ -82,7 +73,6 @@
     "@types/react-dom": "18.x",
     "antd": "5.x",
     "dayjs": "1.x",
-    "rc-basic": "1.x",
     "react": "18.x",
     "react-dom": "18.x"
   },
@@ -98,9 +88,6 @@
     },
     "dayjs": {
       "optional": true
-    },
-    "rc-basic": {
-      "optional": true
     }
   },
   "engines": {
@@ -112,11 +99,7 @@
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "@testing-library/dom",
-        "@umijs/preset-dumi",
-        "react-router",
-        "umi",
-        "webpack"
+        "@testing-library/dom"
       ],
       "allowAny": [
         "react",
