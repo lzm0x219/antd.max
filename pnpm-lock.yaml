@@ -4,7 +4,7 @@ specifiers:
   '@ant-design/cssinjs': 1.1.0
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
-  antd: 5.0.2
+  antd: 5.0.3
   dayjs: 1.11.6
   dumi: 2.0.8
   husky: 8.0.2
@@ -21,7 +21,7 @@ specifiers:
 
 dependencies:
   '@ant-design/cssinjs': 1.1.0_biqbaboplfbrettd7655fr4n2y
-  antd: 5.0.2_biqbaboplfbrettd7655fr4n2y
+  antd: 5.0.3_biqbaboplfbrettd7655fr4n2y
   dayjs: 1.11.6
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -2324,8 +2324,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /antd/5.0.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-vKDdFJ0SGWR4nndq5BcrF9OBa5nt3FTCtODnDh8piPdC3coSgjxb1t0qNkW9MPHaPFrOnAOjlvKHqtBRuVkmHg==}
+  /antd/5.0.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Gqkba0earlR5H6gfT4nsyV3W9rL1Up1+clEXsa1+9Jem/geC2phBImpjWgVjqOjH3L5Oi8SHe0NeYBagDxwP5g==}
     peerDependencies:
       react: '*'
       react-dom: '*'
