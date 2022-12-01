@@ -6,7 +6,7 @@ specifiers:
   '@types/react-dom': 18.0.9
   antd: 5.0.3
   dayjs: 1.11.6
-  dumi: 2.0.9
+  dumi: 2.0.10
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.4
@@ -29,7 +29,7 @@ dependencies:
 devDependencies:
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
-  dumi: 2.0.9_ucuggzgiroy2oh5faa7qbvhk6e
+  dumi: 2.0.10_ucuggzgiroy2oh5faa7qbvhk6e
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.4
@@ -3679,8 +3679,8 @@ packages:
     resolution: {integrity: sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==}
     dev: true
 
-  /dumi/2.0.9_ucuggzgiroy2oh5faa7qbvhk6e:
-    resolution: {integrity: sha512-TeQtDGpRyxXLw0vrCak95ReyAAxQegJYq5I5Lpb4ZgmFwmkMsUSb+dMGUHY6RQznLqwog3k2V6Sah6k04hVdeA==}
+  /dumi/2.0.10_ucuggzgiroy2oh5faa7qbvhk6e:
+    resolution: {integrity: sha512-A1r0aLrHKGp3SBlCaYdl/RTsOjwD5fNMR5Hy7bcAVS93apD1qiPgwh/KNHOACFs5bR0WFnQddRf59r3MlNsBZQ==}
     hasBin: true
     peerDependencies:
       react: '*'
