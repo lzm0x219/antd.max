@@ -6,7 +6,7 @@ specifiers:
   '@types/react-dom': 18.0.9
   antd: 5.0.3
   dayjs: 1.11.6
-  dumi: 2.0.10
+  dumi: 2.0.11
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.1.0
@@ -29,7 +29,7 @@ dependencies:
 devDependencies:
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
-  dumi: 2.0.10_4vvbha2vtdbraywmieua4yllti
+  dumi: 2.0.11_4vvbha2vtdbraywmieua4yllti
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.1.0
@@ -3667,20 +3667,16 @@ packages:
       is-obj: 1.0.1
     dev: true
 
-  /dumi-afx-deps/1.0.0-alpha.2_typescript@4.9.3:
-    resolution: {integrity: sha512-wRXIPGG+Ebn2o85yqe0LxvuE67299LJbPFofU8ioFwYo2pJYFNbiWM3xBqughwh9CKI5OQdN7Stw1//BgXyE0A==}
-    peerDependencies:
-      typescript: ^4.7.2
-    dependencies:
-      typescript: 4.9.3
+  /dumi-afx-deps/1.0.0-alpha.6:
+    resolution: {integrity: sha512-PAstGjZTWoSEYOAtcmTUQ7mhN8l48t6rY0vaEmk5Tbjiuq2XBhp+bjXwhxlw7jUilXVamEQo5adHb6M7u13eEg==}
     dev: true
 
   /dumi-assets-types/2.0.0-alpha.0:
     resolution: {integrity: sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==}
     dev: true
 
-  /dumi/2.0.10_4vvbha2vtdbraywmieua4yllti:
-    resolution: {integrity: sha512-A1r0aLrHKGp3SBlCaYdl/RTsOjwD5fNMR5Hy7bcAVS93apD1qiPgwh/KNHOACFs5bR0WFnQddRf59r3MlNsBZQ==}
+  /dumi/2.0.11_4vvbha2vtdbraywmieua4yllti:
+    resolution: {integrity: sha512-ENvRd2B4ic/Fz1RZtcANau8f2yeugt52F5ZQ2ffPpRV92W6wnqOsw4tIy/JgjTB1G3eiBMfJaNyrokaCCNKQgg==}
     hasBin: true
     peerDependencies:
       react: '*'
@@ -3697,7 +3693,7 @@ packages:
       animated-scroll-to: 2.3.0
       codesandbox: 2.2.3
       deepmerge: 4.2.2
-      dumi-afx-deps: 1.0.0-alpha.2_typescript@4.9.3
+      dumi-afx-deps: 1.0.0-alpha.6
       dumi-assets-types: 2.0.0-alpha.0
       enhanced-resolve: 5.10.0
       estree-util-to-js: 1.1.0
@@ -9592,6 +9588,7 @@ packages:
 
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: true
 
   /space-separated-tokens/2.0.2:
