@@ -49,7 +49,7 @@
   "dependencies": {
     "@ant-design/cssinjs": "1.1.0",
     "antd": "5.0.4",
-    "dayjs": "1.11.6",
+    "dayjs": "1.11.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
