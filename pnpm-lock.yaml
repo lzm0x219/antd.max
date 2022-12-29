@@ -6,7 +6,7 @@ specifiers:
   '@types/react-dom': 18.0.10
   antd: 5.1.1
   dayjs: 1.11.7
-  dumi: 2.0.17
+  dumi: 2.0.18
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.1.0
@@ -29,7 +29,7 @@ dependencies:
 devDependencies:
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.10
-  dumi: 2.0.17_ziyvamyvdzvqvruayuuo4nzdly
+  dumi: 2.0.18_ziyvamyvdzvqvruayuuo4nzdly
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.1.0
@@ -822,6 +822,7 @@ packages:
 
   /@floating-ui/react-dom-interactions/0.3.1_2wivdsbsvmk3pblmocpmpqwn2e:
     resolution: {integrity: sha512-tP2KEh7EHJr5hokSBHcPGojb+AorDNUf0NYfZGg/M+FsMvCOOsSEeEF0O1NDfETIzDnpbHnCs0DuvCFhSMSStg==}
+    deprecated: Package renamed to @floating-ui/react
     dependencies:
       '@floating-ui/react-dom': 0.6.3_2wivdsbsvmk3pblmocpmpqwn2e
       aria-hidden: 1.2.2_3d3cqnhbk5jgdxsmxlr7d24np4
@@ -3684,8 +3685,8 @@ packages:
     resolution: {integrity: sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==}
     dev: true
 
-  /dumi/2.0.17_ziyvamyvdzvqvruayuuo4nzdly:
-    resolution: {integrity: sha512-SnNX1vpILb5PTaeszb8bCMcZpT419zEv1xORZf/GIS0cEay7WAGTOoGycVdrsie/nPBYyQCpJih0ZR8gRu9tTg==}
+  /dumi/2.0.18_ziyvamyvdzvqvruayuuo4nzdly:
+    resolution: {integrity: sha512-b90imq+zVSFdG7+sPsE1NHWVEQhcFVyocqtyecXAXIQ89ns/QLoTk6JT1CmmRDtbFoaT3roAr76v0sfDyyKm9Q==}
     hasBin: true
     peerDependencies:
       react: '*'
